@@ -19,12 +19,12 @@ id:{
 name :{ 
      type: String,
     required: true,
-    default: 'Malak'
+    default: 'Salim'
 },
 
 age:{
         type: Number,
-        default: 25
+        default: 20
     },
 favoriteFoods: {
         type: [String],
@@ -38,9 +38,9 @@ const Person = mongoose.model("Person", personSchema)
 //Record of a model
 const User = new Person({
     id: 1,
-    name: 'MALAK',
-    age: 25,
-    favoriteFoods: ['paella', 'pizza']
+    name: 'SALIM',
+    age: 20,
+    favoriteFoods: ['whiskey', 'pizza']
 })
 
 // Saving Record of a Model 
